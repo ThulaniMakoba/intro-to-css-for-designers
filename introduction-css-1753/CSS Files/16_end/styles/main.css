@@ -1,0 +1,107 @@
+
+h1 {
+    font-size: 42px;
+    padding-top: 60px;
+}
+
+h2 {
+    font-size: 27px;  
+    margin-top: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    text-transform:uppercase;
+}
+p {
+    font-size: 18px; 
+    margin-bottom:10px;
+    margin-top: 10px;
+    max-width: 700px;
+}
+
+body {
+    font-family: Effra, Calibri, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url(../images/red_abbey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(250,250,250);
+}   
+
+a:link {
+    color: rgb(168, 109, 147);   
+}
+a:visited {
+    color: rgb(235, 88, 179);   
+}
+a:hover {
+    color: rgb(244, 158, 215);
+}
+a:active {
+    color: rgb(247, 20, 173);   
+}
+
+figure {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+li {
+    margin-bottom: 5px;   
+}
+
+caption {
+    font-size: 27px;  
+    margin-top: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+}
+
+th {
+   text-align: left; 
+   padding-right: 30px;
+}
+
+td {
+    padding-right: 30px;   
+    padding-top: 10px;
+}
+
+input {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(247,247,247);
+}
+
+ textarea {
+    border: none;
+    background-color: rgb(247,247,247);
+ }
+
+fieldset {
+    width: 400px;   
+}
+
+button {
+    padding: 10px;  
+    border: none;
+    font-family: Effra, Calibri, Helvetica, Arial, sans-serif;
+    background-color: rgb(168, 109, 147);
+    color: rgb(247, 247, 247);
+}
+
+button:hover {
+    background-color: rgb(117, 41, 90);   
+}
+
+main {
+    background-color: rgba(0,0,0,.5);   
+    padding: 60px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Reservations &gt; Red Abbey Resort</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      
+        <h1>Reserving a Room at Red Abbey Resort</h1>
+                
+        <table>
+            <caption>Our Guest Rooms</caption>
+            <tr>
+                <th>Room Type</th>
+                <th>Maximum Occupancy</th>
+                <th>Average Price Per Night</th>
+            </tr>
+            <tr>
+                <td>Attic Room</td>
+                <td>1</td>
+                <td>&pound;100</td>
+            </tr>
+            <tr>
+                <td>Standard Room</td>
+                <td>2</td>
+                <td>&pound;170</td>
+            </tr>
+            <tr>
+                <td>Garden View Suite</td>
+                <td>4</td>
+                <td>&pound;220</td>
+            </tr>
+        </table>
+     <h2>Submit a Reservation Request</h2>
+        <form>
+            <p><label>First Name <input type="text"></label></p>
+            <p><label>Last Name <input type="text"></label></p>
+            <p><label>Phone Number <input type="text"></label></p>
+            <p><label>Email <input type="email"></label></p>
+            <fieldset>
+                <legend>Preferred room type:</legend>
+                <label><input type="radio" name="room-type">Attic Room</label>
+                <label><input type="radio" name="room-type">Standard Room</label>
+                <label><input type="radio" name="room-type">Garden View Suite</label>
+            </fieldset>
+           <p><label>Check In: <input type="date"></label></p>
+            <p><label>Check Out: <input type="date"></label></p>
+            <p><label>Comment or Special Requests</label></p>
+            <textarea></textarea>
+            <p><button type="submit"> Submit Request</button></p>
+            <p><small><strong>Reservations must be made <em>at least</em> 30 days in advance.</strong></small></p>
+        </form>
+        <p><a href="index.html">Return to Home Page</a></p>
+            </body>
+</html>
